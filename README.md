@@ -1,6 +1,6 @@
 # DeepTect
 
-DeepTect is a video analysis platform designed to detect deepfake content using restnet and MTCNN Model. The application leverages Docker and NVIDIA GPU acceleration for optimal performance.
+DeepTect is a video analysis platform designed to detect deepfake content efficiently using state-of-the-art machine learning models. The application leverages Docker and NVIDIA GPU acceleration for optimal performance.
 
 ## Prerequisites
 
@@ -16,6 +16,11 @@ Before using DeepTect, ensure you have the following installed on your system:
 Navigate to the `server` directory:
 ```bash
 cd /server
+```
+
+Run the following command to download the model weights:
+```bash
+bash download_weight.sh
 ```
 
 Build the Docker image:
