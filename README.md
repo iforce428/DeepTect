@@ -1,6 +1,6 @@
 # DeepTect
 
-DeepTect is a video analysis platform designed to detect deepfake content efficiently using state-of-the-art machine learning models. The application leverages Docker and NVIDIA GPU acceleration for optimal performance.
+DeepTect is a video analysis platform designed to detect deepfake content using MTCNN Model and pytorch resnet. The application leverages Docker and NVIDIA GPU acceleration for optimal performance.
 
 ## Prerequisites
 
